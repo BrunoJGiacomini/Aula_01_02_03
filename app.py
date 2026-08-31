@@ -10,5 +10,9 @@ def route():
 def sobre():
     return "Este é o meu site em Flask!"
 
+@app.route("/nova-rota", methods=["GET"])
+def nova_rota():
+    return "Nova rota criada com sucesso!"
+
 if __name__ == "__main__":
     app.run(debug=True)
