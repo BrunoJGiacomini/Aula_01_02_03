@@ -20,7 +20,7 @@ def nova_rota2():
 
 @app.route("/contato", methods=["GET"])
 def contato():
-    return "Página de contato!"
+    return "Página de contato do sistema."
 
 if __name__ == "__main__":
     app.run(debug=True)
