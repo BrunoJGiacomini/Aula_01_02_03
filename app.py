@@ -14,5 +14,9 @@ def sobre():
 def nova_rota():
     return "Nova rota criada com sucesso!"
 
+@app.route("/nova-rota2", methods=["GET"])
+def nova_rota2():
+    return "FATEC - ID"
+
 if __name__ == "__main__":
     app.run(debug=True)
