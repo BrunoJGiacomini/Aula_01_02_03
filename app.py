@@ -18,5 +18,9 @@ def nova_rota():
 def nova_rota2():
     return "FATEC - ID"
 
+@app.route("/contato", methods=["GET"])
+def contato():
+    return "Página de contato!"
+
 if __name__ == "__main__":
     app.run(debug=True)
