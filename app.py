@@ -6,7 +6,7 @@ app = Flask(__name__)
 def route():
     return "Vai Corinthians!"
 
-@app.route("/sobre", methods=["POST"])
+@app.route("/sobre", methods=["GET"])
 def sobre():
     return "Este é o meu site em Flask!"
 
